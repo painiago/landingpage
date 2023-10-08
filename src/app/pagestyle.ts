@@ -7,7 +7,7 @@ export const ContentWelcome = styled.section`
   max-width: 100%;
   margin: 0 auto;
   /* background-color: rebeccapurple; */
-  background-image: url('/imagem/capa2.webp');
+  background-image: url('/imagem/capa2.png');
   background-size: cover;
   @media (max-width:868px){
     padding: 20px !important;

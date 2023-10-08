@@ -56,7 +56,7 @@ export default function Home() {
         <ContainerSecBox>
           <CardBox>
             <div>
-             <img src="/imagem/graficicon.webp" loading='lazy' alt="grafico" />
+             <img src="/imagem/graficicon.png" loading='lazy' alt="grafico" />
             </div>
             <div>
               <p>Gráficos</p>
@@ -64,7 +64,7 @@ export default function Home() {
           </CardBox>
           <CardBox>
             <div>
-            <img src="/imagem/nft.webp" loading='lazy' alt="nft" />  
+            <img src="/imagem/nft.png" loading='lazy' alt="nft" />  
             </div>
             <div>
               <p>NFT</p> 
@@ -72,7 +72,7 @@ export default function Home() {
           </CardBox>
           <CardBox>
             <div>
-            <img src="/imagem/fundamentosicon.webp" loading='lazy' alt="fundamentos" />
+            <img src="/imagem/fundamentosicon.png" loading='lazy' alt="fundamentos" />
             </div>
             <div>
               <p>Fundamentos</p>
@@ -80,7 +80,7 @@ export default function Home() {
           </CardBox>
           <CardBox>
             <div>
-              <img src="/imagem/alavancagemicon.webp" loading='lazy' alt="alavancagem" />
+              <img src="/imagem/alavancagemicon.png" loading='lazy' alt="alavancagem" />
             </div>
               <div>
                 <p>Alavancagem</p>
@@ -150,7 +150,7 @@ export default function Home() {
           </BoxSec5>
           <BoxSec5>
           <BoxInsec5>
-            <img src="/imagem/live.webp" loading='lazy' alt="" />
+            <img src="/imagem/live.png" loading='lazy' alt="" />
             </BoxInsec5>
             <BoxInsec5>
             <article>
@@ -161,7 +161,7 @@ export default function Home() {
           </BoxSec5>
           <BoxSec5>
           <BoxInsec5>
-            <img src="/imagem/whats.webp" loading='lazy' alt="" />
+            <img src="/imagem/whats.png" loading='lazy' alt="" />
             </BoxInsec5>
             <BoxInsec5>
               <article>
@@ -175,16 +175,16 @@ export default function Home() {
        <ContainerSec6>
         <ContenteSec6>
           <BoxSec6>
-            <img src="/imagem/modulo1.webp" loading='lazy' alt="" />
+            <img src="/imagem/modulo1.png" loading='lazy' alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src="/imagem/modulo2.webp" loading='lazy' alt="" />
+            <img src="/imagem/modulo2.png" loading='lazy' alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src="/imagem/modulo3.webp" loading='lazy' alt="" />
+            <img src="/imagem/modulo3.png" loading='lazy' alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src="/imagem/modulo4.webp" loading='lazy' alt="" />
+            <img src="/imagem/modulo4.png" loading='lazy' alt="" />
           </BoxSec6>
         </ContenteSec6>  
        </ContainerSec6>
@@ -195,7 +195,7 @@ export default function Home() {
         </BoxSec7>
         <BoxSec8>
           <BoxContSec8>
-            <img src="/imagem/curso.webp" loading='lazy' alt="" />
+            <img src="/imagem/curso.png" loading='lazy' alt="" />
           </BoxContSec8>
           <BoxContSec9>
             <BoxIntro8>
@@ -215,7 +215,7 @@ export default function Home() {
        <ContainerSec8>
         <ContentSec8>
           <Sec8Img>
-            <img src="/imagem/logo1.webp" loading='lazy' alt="" />
+            <img src="/imagem/logo1.png" loading='lazy' alt="" />
           </Sec8Img>
           <BoxOffPrice>
             <p>Oferta exclusiva para</p>
@@ -256,7 +256,7 @@ export default function Home() {
         <ContentSec10>
           <BoxSec10>
             <BoxImg10>
-              <img src="/imagem/selo.webp" alt="" loading='lazy'/>
+              <img src="/imagem/selo.png" alt="" loading='lazy'/>
             </BoxImg10>
             <BoxTxTLei>
               <p>RISCO ZERO</p>
