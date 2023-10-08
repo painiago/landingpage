@@ -40,7 +40,7 @@ export default function Home() {
         <ContentWelcome>
         <BoxLogo>
           <BoxImg>
-               <img src="/imagem/logo1.webp" loading='lazy'  alt="" />
+               <img src="/imagem/logo1.png" loading='lazy'  alt="" />
           </ BoxImg>
           </BoxLogo>
           <ContainerIntro> 
@@ -97,7 +97,7 @@ export default function Home() {
           <ImgSec4>
              <Stars></Stars>
               <Stars2></Stars2> 
-              <img src="/imagem/btc.webp" loading='lazy' alt=""  />
+              <img src="/imagem/btc.png" loading='lazy' alt=""  />
           </ImgSec4>
           <ContainerBox3>
             <ContentBox3>
