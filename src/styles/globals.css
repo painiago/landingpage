@@ -8,7 +8,14 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-
+  --color-text: #FFF500;
+  --color-blue: #00FFF0;
+  --color-border: #EE0BD7;
+  --color-roxo: #b61fe0;
+  --color-orange: #ffbd24;
+  --foreground-rgb: 255, 255, 255;
+  --background-roxo: rgb(238,11,215,0.1);
+  
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #16abff33 0deg,
@@ -87,12 +94,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: black ;
 }
 
 a {
