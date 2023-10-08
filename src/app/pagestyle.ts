@@ -88,7 +88,6 @@ export const ContentBoxIntro = styled.div`
   @media (max-width:768px){
     padding: 20px;
     text-align: center;
-    background-color: rebeccapurple;
   }
 `
 
