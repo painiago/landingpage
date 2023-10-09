@@ -1,7 +1,7 @@
 import styled from "styled-components";
+
 export const ContainerGeral = styled.main`
 max-width: 100%;
-
 `
 export const ContentWelcome = styled.section`
   max-width: 100%;
@@ -12,7 +12,6 @@ export const ContentWelcome = styled.section`
   @media (max-width:868px){
     padding: 20px !important;
   }
-
 
 `
 export const BoxLogo = styled.div`

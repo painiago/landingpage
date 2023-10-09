@@ -10,7 +10,6 @@ import ScrollLine from '../components/scrollLine/ScrollLine';
 import CountdowTimer from '@/components/contador/CountdowTimer';
 
 
-
 export default function Home() {
   useEffect(() => {
     import('aos').then((AOS) => {
@@ -97,7 +96,7 @@ export default function Home() {
           <ImgSec4>
              <Stars></Stars>
               <Stars2></Stars2> 
-              <img src="/imagem/btc.png" loading='lazy' alt=""  />
+              <img src="/imagem/btc2.png" loading='lazy' alt=""  />
           </ImgSec4>
           <ContainerBox3>
             <ContentBox3>
