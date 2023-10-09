@@ -138,7 +138,7 @@ export default function Home() {
         <ContentSec5>
           <BoxSec5>
             <BoxInsec5>
-             <img src="/imagem/aulas.jpg" loading='lazy' alt="" />
+             <img src="/imagem/aulas.png" loading='lazy' alt="" />
             </BoxInsec5>
             <BoxInsec5>
             <article>
