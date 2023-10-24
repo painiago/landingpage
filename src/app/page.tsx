@@ -184,7 +184,7 @@ export default function Home() {
         </ContentSec5>
        </ContainerSec5>
        <ContainerSec6>
-        {/* <ContenteSec6>
+        <ContenteSec6>
           <BoxSec6>
             <img src={modulo_1_url} loading='lazy' alt="" />
           </BoxSec6>
@@ -197,7 +197,7 @@ export default function Home() {
           <BoxSec6>
             <img src={modulo_4_url} loading='lazy' alt="" />
           </BoxSec6>
-        </ContenteSec6>   */}
+        </ContenteSec6>  
        </ContainerSec6>
        <ContainerSec7>
         <BoxSec7>
