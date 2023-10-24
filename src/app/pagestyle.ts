@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 interface BackgroundImageProps {
   backgroundImage?: string;
@@ -13,7 +13,12 @@ export const ContentWelcome = styled.section<BackgroundImageProps>`
   max-width: 100%;
   margin: 0 auto;
   background-size: cover;
-  background-image: url(${props => props.backgroundImage});
+  background-image: url('/imagem/capa2.png');
+  ${({ backgroundImage }) =>
+    backgroundImage &&
+    css`
+      background-image: url(${backgroundImage});
+    `}
   @media (max-width: 868px) {
     padding: 20px !important;
   }

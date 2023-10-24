@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from "react";
-import styled from "styled-components";
+import styled, { StyleSheetManager } from "styled-components";
 
 interface ScrollLineProps {
   scrollPercentage: number;
@@ -41,7 +41,9 @@ const ScrollLine = () => {
   }, []);
 
   return typeof document !== "undefined" ? ( // Verificação condicional
+  <StyleSheetManager shouldForwardProp={(prop)=> !prop.startsWith('scrollPercentage')}>
     <Line scrollPercentage={scrollPercentage} />
+    </StyleSheetManager>
   ) : null; // Renderiza null se não estiver no contexto do navegador
 };
 
