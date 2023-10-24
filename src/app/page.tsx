@@ -11,6 +11,19 @@ import CountdowTimer from '@/components/contador/CountdowTimer';
 
 
 export default function Home() {
+
+  // impotação de imagen cdn
+  //Conteudo do curso imagens 
+  const image_1_url = 'https://cdn.imgchest.com/files/my8xcvlojz4.png';
+  const image_2_url = 'https://cdn.imgchest.com/files/345xcpkxrx7.png';
+  const image_3_url = 'https://cdn.imgchest.com/files/b49zcegdr2y.png';
+  
+  const modulo_1_url = 'https://cdn.imgchest.com/files/84apcqdaem4.png';
+  const modulo_2_url = 'https://cdn.imgchest.com/files/k46ac8ax2d7.png';
+  const modulo_3_url = 'https://cdn.imgchest.com/files/pyvdczbm52y.png';
+  const modulo_4_url = 'https://cdn.imgchest.com/files/6yxkcvj85p7.png';
+
+
   useEffect(() => {
     import('aos').then((AOS) => {
       AOS.init({
@@ -19,10 +32,6 @@ export default function Home() {
     });
   }, []);
 
-  const [isOpen, setOpen] = useState(false); //Summary 
-  const toggleDetails = () => {
-    setOpen(!isOpen);
-  };
 
   const whatsapp = '0000';
 
@@ -31,12 +40,12 @@ export default function Home() {
     window.open(whatsappUrl, '_blank')
   }
 
-  const targetDate = new Date ('2023-10-10T18:00:00')
+  const targetDate = new Date ('2023-11-23T18:00:00')
   
   return (
     <main>
       <ContainerGeral>
-        <ContentWelcome>
+        <ContentWelcome backgroundImage='/imagem/capa2.png'>
         <BoxLogo>
           <BoxImg>
                <img src="/imagem/logo1.png" loading='lazy'  alt="" />
@@ -138,7 +147,7 @@ export default function Home() {
         <ContentSec5>
           <BoxSec5>
             <BoxInsec5>
-             <img src="/imagem/aulas.png" loading='lazy' alt="" />
+             <img src={image_1_url} loading='lazy' alt="" />
             </BoxInsec5>
             <BoxInsec5>
             <article>
@@ -149,7 +158,7 @@ export default function Home() {
           </BoxSec5>
           <BoxSec5>
           <BoxInsec5>
-            <img src="/imagem/live.png" loading='lazy' alt="" />
+            <img src={image_2_url}  loading='lazy' alt="" />
             </BoxInsec5>
             <BoxInsec5>
             <article>
@@ -160,7 +169,7 @@ export default function Home() {
           </BoxSec5>
           <BoxSec5>
           <BoxInsec5>
-            <img src="/imagem/whats.png" loading='lazy' alt="" />
+            <img src={image_3_url}  loading='lazy' alt="" />
             </BoxInsec5>
             <BoxInsec5>
               <article>
@@ -174,16 +183,16 @@ export default function Home() {
        <ContainerSec6>
         <ContenteSec6>
           <BoxSec6>
-            <img src="/imagem/modulo1.png" loading='lazy' alt="" />
+            <img src={modulo_1_url} loading='lazy' alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src="/imagem/modulo2.png" loading='lazy' alt="" />
+            <img src={modulo_2_url} loading='lazy' alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src="/imagem/modulo3.png" loading='lazy' alt="" />
+            <img src={modulo_3_url} loading='lazy' alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src="/imagem/modulo4.png" loading='lazy' alt="" />
+            <img src={modulo_4_url} loading='lazy' alt="" />
           </BoxSec6>
         </ContenteSec6>  
        </ContainerSec6>
@@ -274,8 +283,8 @@ export default function Home() {
           </BoxSec11>
           <BoxPerg>
             <div>
-            <details open={isOpen} onClick={toggleDetails} >  
-              <summary data-isOpen={isOpen} onClick={toggleDetails}>Quais as formas de pagamento?</summary>
+            <details  >  
+              <summary >Quais as formas de pagamento?</summary>
               <p>Pagando com cartão de crédito você recebe acesso imediato. Por PIX, alguns minutos após fazer o pagamento. Boleto pode levar até 72 horas para ser identificado pelo nosso sistema.</p>
             </details>  
             <details>

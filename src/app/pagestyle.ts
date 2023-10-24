@@ -1,19 +1,24 @@
 import styled from "styled-components";
 
+interface BackgroundImageProps {
+  backgroundImage?: string;
+}
+
 export const ContainerGeral = styled.main`
 max-width: 100%;
 `
-export const ContentWelcome = styled.section`
+
+export const ContentWelcome = styled.section<BackgroundImageProps>`
+
   max-width: 100%;
   margin: 0 auto;
-  /* background-color: rebeccapurple; */
-  background-image: url('/imagem/capa2.png');
   background-size: cover;
-  @media (max-width:868px){
+  background-image: url(${props => props.backgroundImage});
+  @media (max-width: 868px) {
     padding: 20px !important;
   }
+`;
 
-`
 export const BoxLogo = styled.div`
   max-width: 1000px;
   margin: 0 auto;
@@ -508,11 +513,10 @@ export const BoxSec6 = styled.div`
 export const ContainerSec7 = styled.div`
   max-width: 1000px;
   margin: 0 auto;
-  margin-top: 93px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 `
 export const BoxSec7 = styled.div`
   text-align: center;
@@ -529,6 +533,7 @@ export const BoxSec7 = styled.div`
 export const BoxSec8 = styled.div`
   display: flex;
   align-items: center;
+  
   @media (max-width:900px){
     flex-direction: column;
     padding: 10px;
@@ -541,10 +546,12 @@ export const BoxSec8 = styled.div`
 `
 export const BoxContSec8 = styled.div`
   max-width: 500px;
+  margin-right: 20px;
 
   img{
     max-width: 100%;
     height: auto;
+    
   }
 `
 export const BoxContSec9 = styled.div`
@@ -599,7 +606,7 @@ export const BoxIntro8 = styled.div`
 export const ContainerSec8 = styled.section`
 max-width: 1000px;
 margin: 0 auto;
-margin-top: 9rem;
+margin-top: 3rem;
 justify-content: center;
 @media (max-width:900px) {
     padding: 10px;

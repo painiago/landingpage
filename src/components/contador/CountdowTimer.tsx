@@ -4,8 +4,8 @@ import React, {useState, useEffect} from "react";
 
 interface CountDownTimerProps{
     targetDate: Date;
-
 }
+
 const BoxTimeIntro = styled.div`
   display: flex;
   flex-direction: column;
