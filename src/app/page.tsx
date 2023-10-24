@@ -9,7 +9,7 @@ import dynamic from 'next/dynamic';
 import {StyleSheetManager} from 'styled-components';
 
 const CountDowTimer = dynamic(() => import ('@/components/contador/CountdowTimer'), { ssr: false })
-const ScrollLine = dynamic(() => import ('@/components/scrollLine/ScrollLine'), { ssr: false })
+// const ScrollLine = dynamic(() => import ('@/components/scrollLine/ScrollLine'), { ssr: false })
 
 
 export default function Home() {
@@ -326,7 +326,7 @@ export default function Home() {
           <a href="https://iagonascimento.vercel.app/" target='_blank'>Contato</a>
         </div>
         </ContainerFooter> 
-        <ScrollLine/>
+        {/* <ScrollLine/> */}
     </main>
     </StyleSheetManager>
   )
