@@ -186,16 +186,16 @@ export default function Home() {
        <ContainerSec6>
         <ContenteSec6>
           <BoxSec6>
-            <img src={modulo_1_url} loading='lazy' alt="" />
+            <img src={modulo_1_url}  alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src={modulo_2_url} loading='lazy' alt="" />
+            <img src={modulo_2_url}  alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src={modulo_3_url} loading='lazy' alt="" />
+            <img src={modulo_3_url}  alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src={modulo_4_url} loading='lazy' alt="" />
+            <img src={modulo_4_url}  alt="" />
           </BoxSec6>
         </ContenteSec6>  
        </ContainerSec6>
@@ -206,7 +206,7 @@ export default function Home() {
         </BoxSec7>
         <BoxSec8>
           <BoxContSec8>
-            <img src="/imagem/curso.png" loading='lazy' alt="" />
+            <img src="/imagem/curso.png"  alt="" />
           </BoxContSec8>
           <BoxContSec9>
             <BoxIntro8>
@@ -252,7 +252,7 @@ export default function Home() {
           <h2>AINDA COM DÚVIDAS?</h2>
           <BoxBtn9>
             <button onClick={handleWhatsappClick} >Atendimento por Whatsapp 
-              <img src="/imagem/fawhatsapp2.png" loading='lazy' alt="" />
+              <img src="/imagem/fawhatsapp2.png"  alt="" />
             </button>
           </BoxBtn9>
           <BoxSuport> 
