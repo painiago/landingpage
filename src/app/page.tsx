@@ -118,15 +118,15 @@ export default function Home() {
               <p>A Maior Oportunidade da Década</p>
             </ContentBox3>
             <ul>
-              <li data-aos="zoom-in"  data-aos-duration="500"><FontAwesomeIcon icon={faCaretRight} />FUNDAMENTOS INTACTOS </li>
+              <li ><FontAwesomeIcon icon={faCaretRight} />FUNDAMENTOS INTACTOS </li>
               <BoxLine></BoxLine>
-              <li data-aos="zoom-in"  data-aos-duration="1000"><FontAwesomeIcon icon={faCaretRight} />LIBERDADE </li>
+              <li ><FontAwesomeIcon icon={faCaretRight} />LIBERDADE </li>
               <BoxLine></BoxLine>
-              <li data-aos="zoom-in"  data-aos-duration="1500"><FontAwesomeIcon icon={faCaretRight} />DESCENTRALIZAÇÃO </li>
+              <li ><FontAwesomeIcon icon={faCaretRight} />DESCENTRALIZAÇÃO </li>
               <BoxLine></BoxLine>
-              <li data-aos="zoom-in"  data-aos-duration="1800"><FontAwesomeIcon icon={faCaretRight} />ADOÇÃO EM MASSA </li>
+              <li ><FontAwesomeIcon icon={faCaretRight} />ADOÇÃO EM MASSA </li>
               <BoxLine></BoxLine>
-              <li data-aos="zoom-in"  data-aos-duration="2000"><FontAwesomeIcon icon={faCaretRight} />PRIVACIDADE </li>
+              <li ><FontAwesomeIcon icon={faCaretRight} />PRIVACIDADE </li>
             </ul>
           </ContainerBox3>
         </ContainerSecBox4>
@@ -186,16 +186,16 @@ export default function Home() {
        <ContainerSec6>
         <ContenteSec6>
           <BoxSec6>
-            <img src={modulo_1_url}  alt="" />
+            <img src={modulo_1_url} loading='lazy' alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src={modulo_2_url}  alt="" />
+            <img src={modulo_2_url} loading='lazy' alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src={modulo_3_url}  alt="" />
+            <img src={modulo_3_url} loading='lazy' alt="" />
           </BoxSec6>
           <BoxSec6>
-            <img src={modulo_4_url}  alt="" />
+            <img src={modulo_4_url} loading='lazy' alt="" />
           </BoxSec6>
         </ContenteSec6>  
        </ContainerSec6>
@@ -206,7 +206,7 @@ export default function Home() {
         </BoxSec7>
         <BoxSec8>
           <BoxContSec8>
-            <img src="/imagem/curso.png"  alt="" />
+            <img src="/imagem/curso.png" loading='lazy' alt="" />
           </BoxContSec8>
           <BoxContSec9>
             <BoxIntro8>
@@ -252,7 +252,7 @@ export default function Home() {
           <h2>AINDA COM DÚVIDAS?</h2>
           <BoxBtn9>
             <button onClick={handleWhatsappClick} >Atendimento por Whatsapp 
-              <img src="/imagem/fawhatsapp2.png"  alt="" />
+              <img src="/imagem/fawhatsapp2.png" loading='lazy' alt="" />
             </button>
           </BoxBtn9>
           <BoxSuport> 
