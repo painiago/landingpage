@@ -28,7 +28,6 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-class-properties": "^7.22.5",
-    "@babel/plugin-transform-object-rest-spread": "^7.22.15",
-    "@types/aos": "^3.0.5"
+    "@babel/plugin-transform-object-rest-spread": "^7.22.15"
   }
 }

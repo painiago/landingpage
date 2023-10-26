@@ -3,22 +3,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import {ContainerGeral,ContentWelcome,ContainerIntro,ContentBoxIntro,BoxLogo, BoxImg,ContainerSec2, ContainerSecBox, CardBox, ContainerSec3, ContainerSecBox3, ContainerSecBox4, ImgSec4, ContainerBox3, ContentBox3, BoxStyle, BoxLine, ContainerSec4, Box4, Box5, BoxBtn, ContainerSec5, ContentSec5, BoxSec5, BoxInsec5, BoxTitle, ContainerSec6, ContenteSec6, BoxSec6, ContainerSec7, BoxSec7, BoxSec8, BoxContSec8, BoxContSec9, BoxIntro8, ContainerSec8, ContentSec8, Sec8Img, BoxOffPrice, BoxBtn8, BoxTime, BoxTimeIntro, BoxIntroIntro, ContainerSec9, ContentSec9, BoxBtn9, BoxSuport, BoxSuportIntro, ContainerSec10, ContentSec10, BoxImg10, BoxLei, BoxSec10, BoxTxTLei, ContainerSec11, ContentSec11, BoxPerg, BoxSec11, ContainerFooter, Stars, Stars2} from './pagestyle'
 import { faBuildingColumns, faCaretRight,faCircleCheck, faGem, faPlus, faStar } from '@fortawesome/free-solid-svg-icons';
-import { useState, useEffect } from 'react';
-import 'aos/dist/aos.css';
 import dynamic from 'next/dynamic';
 import {StyleSheetManager} from 'styled-components';
 
 const CountDowTimer = dynamic(() => import ('@/components/contador/CountdowTimer'), { ssr: false })
 
 export default function Home() {
-
-  useEffect(() => {
-    import('aos').then((AOS) => {
-      AOS.init({
-        duration: 800,  
-      });
-    });
-  }, []);
 
 
   const whatsapp = '0000';
